@@ -2,6 +2,20 @@
 # HTML
 # From: https://github.com/joshnh/HTML-Snippets
 # ---
+
+trigger: bs-2-col
+scope: html
+description: Bootstrap 2 Column Grid
+text: |
+<div class="row">
+	<div class="col-${1:str}-${2:num}">
+		${4}
+	</div>
+	<div class="col-${1:str}-${3:num}">
+		${5}
+	</div>
+</div>
+
 - trigger: a
   scope: html
   description: Anchor Tag
